@@ -31,5 +31,5 @@ where $L_1$ is an $r \times r$ lower triangular matrix with positive diagonal.
 The Cholesky decomposition is equivalent to a particular choice of conjugate axes of an ellipsoid. Let the ellipsoid be defined as $y^{T}Ay=1$, then by definition, a set of vectors $v_1,\dots,v_n$ are conjugate axes of the elippsoid $iff$ $v_{i}^{T}Av_j = {\delta}_{ij}$. 
 Then the ellipsoid is given by:
 ```math
-\bigl\{\sum_{i}{x_i}{v_i}:{x^T}{x}=1\bigr\}=f\left(\mathbb{S}\right)
+\biggl\{\sum_{i}{x_i}{v_i}:{x^T}{x}=1\biggr\}=f\left(\mathbb{S}\right)
 ```

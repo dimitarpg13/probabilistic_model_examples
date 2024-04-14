@@ -35,4 +35,4 @@ Then the ellipsoid is given by:
 ```
 where $f$ maps the basis vector $e_i \mapsto v_i$ and ${\mathbb{S}}^{n}$ is the unit sphere in $n$ dimensions. That is, the ellipsoid is a linear image of the unit sphere.
 
-Define the matrix $V := \[v_1|v_2|\dots|v_n\]$
+Define the matrix $V := \[v_1|v_2|\dots|v_n\]$, then ${v_i}^{T}Av_j = {\delta}_{ij}$ is equivalent to $V^{T}AV = I$.

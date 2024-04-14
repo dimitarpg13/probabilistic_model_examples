@@ -41,3 +41,16 @@ The Cholesky decomposition corresponds to choosing $v_1$ to be parallel to the f
 This makes $V$ an upper-triangular matrix because $v\_k = {\alpha}_{1} {v\_1} + {\alpha}\_{2} {v\_2} + \dots + {\alpha}\_{k-1} {v\_{k-1}}$ where ${\alpha}\_l, l=1,\dots,k-1$ are real numbers not all equal to zero. Since the inverse of upper triangular matrix is also upper triangular matrix and the transpose of the inverse is lower triangular we have: $A = LL^{T}$ where $L = {\left(V^{-1}\right)}^{T}$ is lower triangular. 
 
 In [Singular Value Decomposition](https://github.com/dimitarpg13/probabilistic_model_examples/blob/main/docs/SingularValueDecomposition.md) we choose $v_1,\dots,v_n$ to be perpendicular. Then, let $\lambda = \frac{1}{{\lVert v_i \rVert}^2}$ and $\Sigma = \text{diag}\left({\lambda}_1,\dots,\lambda_n\right)$ and there is $V = U{\Sigma}^{-1/2}$ where $U$ is an orthogonal matrix. This then yields $A = U{\Sigma}{U}^{T}$. 
+
+## Algorithms performing Cholesky decomposition
+
+The computational complexity for the common algorithms performing Cholesky decomposition is $O\left(n^3\right)$ in general. 
+
+### The Cholesky algorithm
+
+The original Cholesky algorithm, used to obtain the decomposition matrix $L$, is recursive algorithm and it is a modified version of the conventional Gaussian elimination.
+It starts with $i := 1$ and 
+$$A^{(1)} := A$$
+
+
+

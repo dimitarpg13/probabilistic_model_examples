@@ -28,4 +28,4 @@ where $L_1$ is an $r \times r$ lower triangular matrix with positive diagonal.
 
 ## Interpretation
 
-The Cholesky decomposition is equivalent to a particular choice of conjugate axes of an ellipsoid. Let the ellipsoid be defined as $Y^{T}Ay=1$, then by definition, a set of vectors $v_1,\dots,v_n$ are conjugate axes of the elippsoid $iff$ $v_{i}^{T}Av_j = {\delta}_{ij}$. 
+The Cholesky decomposition is equivalent to a particular choice of conjugate axes of an ellipsoid. Let the ellipsoid be defined as $y^{T}Ay=1$, then by definition, a set of vectors $v_1,\dots,v_n$ are conjugate axes of the elippsoid $iff$ $v_{i}^{T}Av_j = {\delta}_{ij}$. 

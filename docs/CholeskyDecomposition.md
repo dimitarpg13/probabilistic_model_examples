@@ -22,5 +22,5 @@ where $L$ is a real lower triangular matrix with positive diagonal entries.
 
 **Theorem**: if $A$ is an $n \times n$ positive semidefinite matrix of rank $r$, then there is at least one permutation matrix $P$ such that $PAP^{T}$ has a unique decomposition of the form $PAP^{T} = LL^{*}$ with 
 ```math
-\begin{bmatrix}X\\Y\end{bmatrix}
+L = \begin{bmatrix}L_1 0\\L2 0\end{bmatrix}
 ```

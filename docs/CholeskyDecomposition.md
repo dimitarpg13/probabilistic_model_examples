@@ -25,3 +25,7 @@ where $L$ is a real lower triangular matrix with positive diagonal entries.
 L = \begin{bmatrix}L_1 & 0\\L_2 & 0\end{bmatrix}
 ```
 where $L_1$ is an $r \times r$ lower triangular matrix with positive diagonal.
+
+## Interpretation
+
+The Cholesky decomposition is equivalent to a particular choice of conjugate axes of an ellipsoid. 

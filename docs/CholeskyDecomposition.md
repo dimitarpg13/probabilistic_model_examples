@@ -38,4 +38,4 @@ where $f$ maps the basis vector $e_i \mapsto v_i$ and ${\mathbb{S}}^{n}$ is the 
 Define the matrix $V := \[v_1|v_2|\dots|v_n\]$, then ${v_i}^{T}Av_j = {\delta}_{ij}$ is equivalent to $V^{T}AV = I$. Different choices of the conjugate axes correspond to different decompositions.
 
 The Cholesky decomposition corresponds to choosing $v_1$ to be parallel to the first axis, $v_2$ to be within the plane spanned by the first two axes, and so on.
-This makes $V$ an upper-triangular matrix because $v\_k = {\alpha}_{1} {v\_1} + {\alpha}\_{2} {v\_2} + \dots + {\alpha}\_{k-1} {v\_{k-1}}$ where ${\alpha}\_l, l=1,\dots,k-1$ are real numbers not all equal to zero. 
+This makes $V$ an upper-triangular matrix because $v\_k = {\alpha}_{1} {v\_1} + {\alpha}\_{2} {v\_2} + \dots + {\alpha}\_{k-1} {v\_{k-1}}$ where ${\alpha}\_l, l=1,\dots,k-1$ are real numbers not all equal to zero. Since the inverse of upper triangular matrix is also upper triangular matrix and the transpose of the inverse is lower triangular we have: $A = LL^{T}$ where $L = {\left(V^{-1}\right)}^{T}$ is lower triangular. 

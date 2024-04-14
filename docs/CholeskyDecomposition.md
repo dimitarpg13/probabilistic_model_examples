@@ -20,5 +20,5 @@ where $L$ is a real lower triangular matrix with positive diagonal entries.
 
 **Note**: the decomposition can be made unique when a pivoting choice is fixed. Formally:
 
-**Theorem**: if $A$ is an $n \times n$ positive semidefinite matrix of rank $r$, then there is at least one permutation matrix $P$ such that $PAP^{T}$ has a unique decomposition of the form $PAP^{T} = LL^{*}$ with $M = \left\[ \begin{smallmatrix} 1 & 2 \\ 3 & 4 \end{smallmatrix} \right\]$
+**Theorem**: if $A$ is an $n \times n$ positive semidefinite matrix of rank $r$, then there is at least one permutation matrix $P$ such that $PAP^{T}$ has a unique decomposition of the form $PAP^{T} = LL^{*}$ with $$M = \left\[ \begin{smallmatrix} 1 & 2 \\ 3 & 4 \end{smallmatrix} \right\]$$
 

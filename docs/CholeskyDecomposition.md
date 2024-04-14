@@ -34,3 +34,5 @@ Then the ellipsoid is given by:
 \biggl\{\sum_{i}{x_i}{v_i}:{x^T}{x}=1\biggr\}=f\left({\mathbb{S}}^{n}\right)
 ```
 where $f$ maps the basis vector $e_i \mapsto v_i$ and ${\mathbb{S}}^{n}$ is the unit sphere in $n$ dimensions. That is, the ellipsoid is a linear image of the unit sphere.
+
+Define the matrix $V := \[v_1|v_2|\dots|v_n\]$

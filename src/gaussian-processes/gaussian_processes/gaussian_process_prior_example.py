@@ -19,3 +19,4 @@ L = np.linalg.cholesky(kernel + epsilon*np.eye(n))
 f_prior = np.dot(L, np.random.normal(size=(n,10)))
 
 pl.plot(xtest, f_prior)
+pl.show()
